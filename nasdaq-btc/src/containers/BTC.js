@@ -6,6 +6,7 @@ class USD extends React.Component{
     return(
       <div>
         <span> You have {this.props.currentBTC} BTC</span><br/>
+        <button>Sell BTC</button>
       </div>
     )
   }
